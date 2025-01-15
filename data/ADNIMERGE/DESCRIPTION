@@ -1,0 +1,22 @@
+Package: ADNIMERGE
+Version: 0.0.1
+Date: 2024-01-31
+Title: ADNIMERGE: Clinical and biomarker data from all ADNI protocols
+Authors@R: c(person("Alzheimer's Disease Neuroimaging Initiative",
+  email='adni-data@googlegroups.com', role = c('aut', 'cre')))
+Depends: R (>= 3.5.0), Hmisc
+URL: http://adni.loni.usc.edu
+BugReports: https://groups.google.com/forum/#!forum/adni-data
+License:
+        http://adni.loni.usc.edu/wp-content/uploads/how_to_apply/ADNI_Data_Use_Agreement.pdf
+LazyData: TRUE
+Repository: ARAN
+VignetteBuilder: knitr
+Suggests: knitr, rmarkdown
+Encoding: UTF-8
+Collate: 'dataDoc.R' 'adnimerger.R' 'ADNIMERGE-package.R'
+RoxygenNote: 7.2.3
+NeedsCompilation: no
+Packaged: 2024-01-31 13:10:20 UTC; jenkins
+Author: Alzheimer's Disease Neuroimaging Initiative [aut, cre]
+Maintainer: Alzheimer's Disease Neuroimaging Initiative <adni-data@googlegroups.com>
